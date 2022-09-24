@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "529328970964",
-    "firebase_url": "https://ecommerce-11711-default-rtdb.europe-west1.firebasedatabase.app",
-    "project_id": "ecommerce-11711",
-    "storage_bucket": "ecommerce-11711.appspot.com"
+    "project_number": "106237476927",
+    "project_id": "ecommerce-49459",
+    "storage_bucket": "ecommerce-49459.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:529328970964:android:6dc079bac17f224c31af41",
+        "mobilesdk_app_id": "1:106237476927:android:49923e1af0a8ea52dc388a",
         "android_client_info": {
           "package_name": "com.example.ecommerce_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "529328970964-nkdq1hnulrjbq8sthpo46c7qphb15mfv.apps.googleusercontent.com",
+          "client_id": "106237476927-treslokslb64qoo5qhgunlk1puk8cuuo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDPdYmgZlfx7pJ_WHUaYLetP_0pNG5zNVU"
+          "current_key": "AIzaSyBtSdi1f_mCFHojVTDBmb6PR7J6su5UpvU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "529328970964-nkdq1hnulrjbq8sthpo46c7qphb15mfv.apps.googleusercontent.com",
+              "client_id": "106237476927-treslokslb64qoo5qhgunlk1puk8cuuo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

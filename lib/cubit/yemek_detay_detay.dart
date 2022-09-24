@@ -2,7 +2,10 @@ import 'package:ecommerce_app/entity/yemek.dart';
 import 'package:ecommerce_app/repo/yemeklerdao_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class YemekDetayCubit extends Cubit<List<Yemekler>> {
+import '../entity/yemek.dart';
+import '../repo/yemeklerdao_repository.dart';
+
+class YemekDetayCubit extends Cubit<void> {
   
   YemekDetayCubit():super(<Yemekler>[]);
 

@@ -30,18 +30,7 @@ class NavBar extends StatelessWidget {
                   Icons.home,
                   color: Colors.white,
                 )),
-            IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.shopping_basket,
-                  color: Colors.white,
-                )),
-            IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.white,
-                ))
+            
           ],
         ),
       ),

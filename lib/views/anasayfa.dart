@@ -31,6 +31,7 @@ class _AnasayfaState extends State<Anasayfa> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: CustomAppBar(title: "Food"),
       body: BlocBuilder<AnasayfaCubit, List<Yemekler>>(
         builder: (context, yemeklerListe) {
@@ -52,16 +53,16 @@ class _AnasayfaState extends State<Anasayfa> {
                       height: 200,
                       child: InkWell(
                         onTap: () {
-                          print("asdasdd");
+                          
                           print(yemek.yemek_adi);
                           Navigator.push(
                               context,
                               MaterialPageRoute(
                                   builder: (context) => YemekDetaySayfa(
-                                    //sepetYemekler: sepetYemekler,
+                                      //sepetYemekler: sepetYemekler,
                                         yemek: yemek,
-                                        isim: yemek.yemek_adi,
-                                        fiyat: yemek.yemek_fiyat,
+                                        yemek_adi: yemek.yemek_adi,
+                                        yemek_fiyat: yemek.yemek_fiyat,
                                         resim_adi:
                                       "http://kasimadalan.pe.hu/yemekler/resimler/${yemek.yemek_resim_adi}", 
                                       ))).then((value) {

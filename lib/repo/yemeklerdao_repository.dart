@@ -27,6 +27,7 @@ class YemeklerDaoRepository {
 
     };
     var cevap=await Dio().post(url,data:FormData.fromMap(veri));
+    print(veri);
   }
 
   Future<void> yemekSil(int sepet_yemek_id)async{
